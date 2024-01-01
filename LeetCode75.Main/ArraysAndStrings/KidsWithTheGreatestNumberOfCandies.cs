@@ -5,17 +5,17 @@ public class KidsWithTheGreatestNumberOfCandies
     public IList<bool> KidsWithCandies(int[] candies, int extraCandies)
     {
         int greatest = candies.Max();
-        List<bool> result = [];
+        bool[] result = new bool[candies.Length];
 
         for (int index = 0; index < candies.Length; index++) 
         {
             if (candies[index] + extraCandies < greatest)
             {
-                result.Add(false);
+                result[index] = false;
             }
             else
             {
-                result.Add(true);
+                result[index] = true;
             }
         }
 

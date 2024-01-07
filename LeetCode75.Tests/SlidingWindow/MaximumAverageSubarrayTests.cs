@@ -15,6 +15,5 @@ internal class MaximumAverageSubarrayTests
     {
         yield return new TestCaseData(new int[] { 1, 12, -5, -6, 50, 3 }, 4, 12.75);
         yield return new TestCaseData(new int[] { 5 }, 1, 5.00000);
-
     }
 }

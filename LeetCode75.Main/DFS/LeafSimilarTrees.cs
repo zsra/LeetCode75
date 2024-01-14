@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace LeetCode75.Main.DFS;
+﻿namespace LeetCode75.Main.DFS;
 
 public class LeafSimilarTrees
 {
